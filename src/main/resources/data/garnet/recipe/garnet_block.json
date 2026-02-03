@@ -1,0 +1,22 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "garnet:garnet"
+    },
+    {
+      "item": "garnet:garnet"
+    },
+    {
+      "item": "garnet:garnet"
+    },
+    {
+      "item": "garnet:garnet"
+    }
+  ],
+  "result": {
+    "id": "garnet:garnet_block",
+    "count": 1
+  }
+}

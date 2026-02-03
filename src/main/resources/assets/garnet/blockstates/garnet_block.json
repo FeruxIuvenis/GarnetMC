@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "garnet:block/garnet_block"
+    }
+  }
+}

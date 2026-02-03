@@ -1,5 +1,6 @@
 package com.coshgun;
 
+import com.coshgun.block.ModBlocks;
 import com.coshgun.item.ModItemGroup;
 import com.coshgun.item.ModItems;
 import net.fabricmc.api.ModInitializer;
@@ -14,6 +15,7 @@ public class Garnet implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.registerModItems();
+		ModBlocks.registerModBlocks();
 		ModItemGroup.registerModItemGroups();
 	}
 }

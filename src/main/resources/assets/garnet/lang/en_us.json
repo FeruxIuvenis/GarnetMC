@@ -1,4 +1,10 @@
 {
   "item.garnet.garnet": "Garnet",
-  "item.garnet.raw_garnet": "Raw Garnet"
+  "item.garnet.raw_garnet": "Raw Garnet",
+
+  "item.garnet.garnet_block": "Garnet Block",
+  "item.garnet.raw_garnet_block": "Raw Garnet Block",
+
+  "block.garnet.garnet_block": "Garnet Block",
+  "block.garnet.raw_garnet_block": "Raw Garnet Block"
 }

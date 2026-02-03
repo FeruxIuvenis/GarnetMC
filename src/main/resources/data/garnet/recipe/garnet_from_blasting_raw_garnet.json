@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "group": "garnet",
+  "category": "misc",
+  "ingredient": {
+    "item": "garnet:raw_garnet"
+  },
+  "result": {
+    "id": "garnet:garnet"
+  },
+  "experience": 0.5,
+  "cookingtime": 200
+}

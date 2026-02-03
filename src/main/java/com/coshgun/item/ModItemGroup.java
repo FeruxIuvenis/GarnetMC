@@ -1,6 +1,7 @@
 package com.coshgun.item;
 
 import com.coshgun.Garnet;
+import com.coshgun.block.ModBlocks;
 import com.coshgun.item.custom.ingredient.ModIngredients;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
@@ -21,6 +22,9 @@ public class ModItemGroup {
                     .entries(((displayContext, entries) -> {
                         entries.add(ModIngredients.GARNET);
                         entries.add(ModIngredients.RAW_GARNET);
+
+                        entries.add(ModBlocks.GARNET_BLOCK);
+                        entries.add(ModBlocks.RAW_GARNET_BLOCK);
                     }))
                     .build()
     );

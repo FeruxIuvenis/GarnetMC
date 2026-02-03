@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:blasting",
+  "group": "garnet",
+  "category": "building",
+  "ingredient": {
+    "item": "garnet:raw_garnet_block"
+  },
+  "result": {
+    "id": "garnet:garnet_block"
+  },
+  "experience": 2,
+  "cookingtime": 400
+}
