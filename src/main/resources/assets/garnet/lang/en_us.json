@@ -4,7 +4,15 @@
 
   "item.garnet.garnet_block": "Garnet Block",
   "item.garnet.raw_garnet_block": "Raw Garnet Block",
+  "item.garnet.ore_garnet_block": "Garnet Ore",
+  "item.garnet.ore_garnet_deepslate_block": "Deepslate Garnet Ore",
 
   "block.garnet.garnet_block": "Garnet Block",
-  "block.garnet.raw_garnet_block": "Raw Garnet Block"
+  "block.garnet.raw_garnet_block": "Raw Garnet Block",
+  "block.garnet.ore_garnet_block": "Garnet Ore",
+  "block.garnet.ore_garnet_deepslate_block": "Deepslate Garnet Ore",
+
+  "item.garnet.garnet_apple": "Garnet Apple",
+
+  "itemgroup.garnet.garnet_group": "Garnet Group"
 }

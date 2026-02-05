@@ -2,7 +2,10 @@ package com.coshgun.item;
 
 import com.coshgun.Garnet;
 import com.coshgun.block.ModBlocks;
+import com.coshgun.item.custom.food.ModFoods;
 import com.coshgun.item.custom.ingredient.ModIngredients;
+import com.coshgun.item.custom.tool.ModPassiveTools;
+import com.coshgun.item.custom.tool.ModWeapons;
 import net.fabricmc.fabric.api.itemgroup.v1.FabricItemGroup;
 import net.minecraft.item.ItemGroup;
 import net.minecraft.item.ItemStack;
@@ -25,6 +28,15 @@ public class ModItemGroup {
 
                         entries.add(ModBlocks.GARNET_BLOCK);
                         entries.add(ModBlocks.RAW_GARNET_BLOCK);
+                        entries.add(ModBlocks.ORE_GARNET_BLOCK);
+                        entries.add(ModBlocks.ORE_GARNET_DEEPSLATE_BLOCK);
+
+                        entries.add(ModFoods.GARNET_APPLE_ITEM);
+
+                        entries.add(ModWeapons.GARNET_AXE);
+                        entries.add(ModWeapons.GARNET_SWORD);
+
+                        entries.add(ModPassiveTools.GARNET_PICKAXE);
                     }))
                     .build()
     );

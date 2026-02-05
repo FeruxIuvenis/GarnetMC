@@ -1,0 +1,8 @@
+{
+  "replace": false,
+  "values": [
+    "garnet:ore_garnet_block",
+    "garnet:ore_garnet_deepslate_block",
+    "garnet:raw_garnet_block"
+  ]
+}
