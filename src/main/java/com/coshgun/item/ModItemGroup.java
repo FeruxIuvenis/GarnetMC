@@ -37,6 +37,7 @@ public class ModItemGroup {
                         entries.add(ModWeapons.GARNET_SWORD);
 
                         entries.add(ModPassiveTools.GARNET_PICKAXE);
+                        entries.add(ModPassiveTools.RED_GLOWING_MINER_PICKAXE_ITEM);
                     }))
                     .build()
     );

@@ -14,5 +14,10 @@
 
   "item.garnet.garnet_apple": "Garnet Apple",
 
-  "itemgroup.garnet.garnet_group": "Garnet Group"
+  "itemgroup.garnet.garnet_group": "Garnet Group",
+
+  "item.garnet.garnet_axe": "Garnet Axe",
+  "item.garnet.garnet_pickaxe": "Garnet Pickaxe",
+  "item.garnet.garnet_sword": "Garnet Sword",
+  "item.garnet.red_glowing_miner_pickaxe": "Red Pickaxe"
 }

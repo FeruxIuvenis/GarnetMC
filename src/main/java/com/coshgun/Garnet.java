@@ -3,8 +3,10 @@ package com.coshgun;
 import com.coshgun.block.ModBlocks;
 import com.coshgun.item.ModItemGroup;
 import com.coshgun.item.ModItems;
+import com.coshgun.util.RedPickaxeUsageEvent;
 import net.fabricmc.api.ModInitializer;
 
+import net.fabricmc.fabric.api.event.player.PlayerBlockBreakEvents;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
@@ -17,5 +19,7 @@ public class Garnet implements ModInitializer {  // Main .java file
 		ModItems.registerModItems();
 		ModBlocks.registerModBlocks();
 		ModItemGroup.registerModItemGroups();
+
+		PlayerBlockBreakEvents.BEFORE.register(new RedPickaxeUsageEvent());
 	}
 }
