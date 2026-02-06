@@ -33,8 +33,9 @@ public class ModItemGroup {
 
                         entries.add(ModFoods.GARNET_APPLE_ITEM);
 
-                        entries.add(ModWeapons.GARNET_AXE);
                         entries.add(ModWeapons.GARNET_SWORD);
+                        entries.add(ModWeapons.GARNET_AXE);
+                        entries.add(ModWeapons.GARNET_GODS_SWORD);
 
                         entries.add(ModPassiveTools.GARNET_PICKAXE);
                         entries.add(ModPassiveTools.RED_GLOWING_MINER_PICKAXE_ITEM);

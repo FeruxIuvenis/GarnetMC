@@ -46,7 +46,6 @@ public class RedGlowingMinerPickaxe extends MiningToolItem {
                 }
             }
         }
-
         return positions;
     }
 }

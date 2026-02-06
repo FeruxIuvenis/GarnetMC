@@ -14,8 +14,7 @@ import org.jetbrains.annotations.Nullable;
 import java.util.HashSet;
 import java.util.Set;
 
-public class RedPickaxeUsageEvent implements PlayerBlockBreakEvents.Before{
-
+public class RedPickaxeUsageEvent implements PlayerBlockBreakEvents.Before {
     private static final Set<BlockPos> HARVESTED_BLOCKS = new HashSet<>();
 
     @Override
@@ -25,8 +24,10 @@ public class RedPickaxeUsageEvent implements PlayerBlockBreakEvents.Before{
         if(mainHandItem.getItem() instanceof RedGlowingMinerPickaxe pickaxe && playerEntity instanceof ServerPlayerEntity serverPlayerEntity) {
             if(HARVESTED_BLOCKS.contains(blockPos)) {
                 return true;
-            } for(BlockPos position : RedGlowingMinerPickaxe.getBlocksToBeDestroyed(1, blockPos, serverPlayerEntity)) {
-                if(blockPos == position || !pickaxe.isCorrectForDrops(mainHandItem, world.getBlockState(position))) {
+            }
+
+            for(BlockPos position : RedGlowingMinerPickaxe.getBlocksToBeDestroyed(1, blockPos, serverPlayerEntity)) {
+                if (position.equals(blockPos)) {
                     continue;
                 }
 
@@ -35,7 +36,6 @@ public class RedPickaxeUsageEvent implements PlayerBlockBreakEvents.Before{
                 HARVESTED_BLOCKS.remove(position);
             }
         }
-
         return true;
     }
 }
