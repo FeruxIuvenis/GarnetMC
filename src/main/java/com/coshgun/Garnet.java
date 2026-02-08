@@ -1,8 +1,10 @@
 package com.coshgun;
 
 import com.coshgun.block.ModBlocks;
+import com.coshgun.effect.ModEffects;
 import com.coshgun.item.ModItemGroup;
 import com.coshgun.item.ModItems;
+import com.coshgun.util.GarnetArmorTickHandler;
 import com.coshgun.util.GodsSwordUsageEvent;
 import com.coshgun.util.RedPickaxeUsageEvent;
 import net.fabricmc.api.ModInitializer;
@@ -21,7 +23,11 @@ public class Garnet implements ModInitializer {  // Main .java file
 		ModBlocks.registerModBlocks();
 		ModItemGroup.registerModItemGroups();
 
+		ModEffects.registerModEffects();
+
 		PlayerBlockBreakEvents.BEFORE.register(new RedPickaxeUsageEvent());
 		GodsSwordUsageEvent.register();
+
+		GarnetArmorTickHandler.registerHandler();
 	}
 }

@@ -2,6 +2,7 @@ package com.coshgun.item.custom.tool;
 
 import com.coshgun.item.custom.tool.special.GarnetGodsSword;
 import net.minecraft.item.AxeItem;
+import net.minecraft.item.BowItem;
 import net.minecraft.item.Item;
 import net.minecraft.item.SwordItem;
 
@@ -22,12 +23,15 @@ public class ModWeapons extends ModTools {
     public static final Item GARNET_GODS_SWORD = registerItem("garnet_gods_sword",
             new GarnetGodsSword(
                     ModToolMaterial.INSTANCE,
-                    10,
-                    -3.0f,
+                    9,
+                    -3.2f,
                     new Item.Settings().attributeModifiers(
                             GarnetGodsSword.createAttributeModifiers(ModToolMaterial.INSTANCE, 10, -3.0f)
                     )
             ));
+
+    public static final Item GARNET_BOW = registerItem("garnet_bow",
+            new BowItem(new Item.Settings().maxDamage(500)));
 
     static void registerWeapons() {
         // Items are registered when the static fields are initialized

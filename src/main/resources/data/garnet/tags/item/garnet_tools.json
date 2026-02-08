@@ -1,0 +1,11 @@
+{
+  "replace": false,
+  "values": [
+    "garnet:garnet_sword",
+    "garnet:garnet_axe",
+    "garnet:garnet_pickaxe",
+    "garnet:red_glowing_miner_pickaxe",
+    "garnet:garnet_gods_sword",
+    "garnet:garnet_bow"
+  ]
+}

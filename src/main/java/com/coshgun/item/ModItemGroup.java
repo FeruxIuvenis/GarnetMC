@@ -2,6 +2,7 @@ package com.coshgun.item;
 
 import com.coshgun.Garnet;
 import com.coshgun.block.ModBlocks;
+import com.coshgun.item.custom.armor.ModArmors;
 import com.coshgun.item.custom.food.ModFoods;
 import com.coshgun.item.custom.ingredient.ModIngredients;
 import com.coshgun.item.custom.tool.ModPassiveTools;
@@ -23,21 +24,35 @@ public class ModItemGroup {
                     .icon(() -> new ItemStack(ModIngredients.GARNET))
                     .displayName(Text.translatable("itemgroup.garnet.garnet_group"))
                     .entries(((displayContext, entries) -> {
+                        // Ingredients
                         entries.add(ModIngredients.GARNET);
                         entries.add(ModIngredients.RAW_GARNET);
 
+                        // Blocks
                         entries.add(ModBlocks.GARNET_BLOCK);
                         entries.add(ModBlocks.RAW_GARNET_BLOCK);
                         entries.add(ModBlocks.ORE_GARNET_BLOCK);
                         entries.add(ModBlocks.ORE_GARNET_DEEPSLATE_BLOCK);
 
+                        // Foods
                         entries.add(ModFoods.GARNET_APPLE_ITEM);
 
+                        // Weapons
                         entries.add(ModWeapons.GARNET_SWORD);
                         entries.add(ModWeapons.GARNET_AXE);
-                        entries.add(ModWeapons.GARNET_GODS_SWORD);
+                        entries.add(ModWeapons.GARNET_BOW);
 
+                        // Passive Tools
                         entries.add(ModPassiveTools.GARNET_PICKAXE);
+
+                        // Armor
+                        entries.add(ModArmors.GARNET_HELMET);
+                        entries.add(ModArmors.GARNET_CHESTPLATE);
+                        entries.add(ModArmors.GARNET_LEGGINGS);
+                        entries.add(ModArmors.GARNET_BOOTS);
+
+                        // Special Items
+                        entries.add(ModWeapons.GARNET_GODS_SWORD);
                         entries.add(ModPassiveTools.RED_GLOWING_MINER_PICKAXE_ITEM);
                     }))
                     .build()

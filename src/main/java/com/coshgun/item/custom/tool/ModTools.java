@@ -12,7 +12,7 @@ public class ModTools {
         ModPassiveTools.registerPassiveTools();
     }
 
-    protected static Item registerItem(String name, Item item) {
+    public static Item registerItem(String name, Item item) {
         return Registry.register(Registries.ITEM, Identifier.of(Garnet.MOD_ID, name), item);
     }
 }

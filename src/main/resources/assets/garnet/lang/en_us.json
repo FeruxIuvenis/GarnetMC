@@ -12,12 +12,26 @@
   "block.garnet.ore_garnet_block": "Garnet Ore",
   "block.garnet.ore_garnet_deepslate_block": "Deepslate Garnet Ore",
 
+  "painting.garnet.garnet_painting": "Discovery",
+  "painting.garnet.garnet_painting": "The Elder",
+
   "item.garnet.garnet_apple": "Garnet Apple",
 
-  "itemgroup.garnet.garnet_group": "Garnet Group",
-
   "item.garnet.garnet_axe": "Garnet Axe",
-  "item.garnet.garnet_pickaxe": "Garnet Pickaxe",
   "item.garnet.garnet_sword": "Garnet Sword",
-  "item.garnet.red_glowing_miner_pickaxe": "Red Pickaxe"
+  "item.garnet.garnet_bow": "Garnet Bow",
+
+  "item.garnet.garnet_pickaxe": "Garnet Pickaxe",
+
+  "item.garnet.garnet_gods_sword": "Garnet God's Sword",
+  "item.garnet.red_glowing_miner_pickaxe": "Red Pickaxe",
+
+  "item.garnet.garnet_chestplate": "Garnet ChestPlate",
+  "item.garnet.garnet_helmet": "Garnet Helmet",
+  "item.garnet.garnet_leggings": "Garnet Leggings",
+  "item.garnet.garnet_boots": "Garnet Boots",
+
+  "effect.garnet.blessed_by_garnet_gods": "Blessed By Garnet Gods",
+
+  "itemgroup.garnet.garnet_group": "Garnet Group"
 }

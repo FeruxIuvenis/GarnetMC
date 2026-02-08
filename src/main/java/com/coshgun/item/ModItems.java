@@ -2,6 +2,7 @@ package com.coshgun.item;
 
 import com.coshgun.Garnet;
 import com.coshgun.block.ModBlocks;
+import com.coshgun.item.custom.armor.ModArmors;
 import com.coshgun.item.custom.food.ModFoods;
 import com.coshgun.item.custom.ingredient.ModIngredients;
 import com.coshgun.item.custom.tool.ModTools;
@@ -14,5 +15,6 @@ public class ModItems {
         ModBlocks.registerModBlocks();
         ModFoods.registerModFoods();
         ModTools.registerModTools();
+        ModArmors.registerModArmors();
     }
 }
